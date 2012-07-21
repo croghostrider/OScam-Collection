@@ -1,0 +1,15 @@
+#
+# ECM length matching table
+#
+# format:
+#
+#  matching:
+#   m:[CAID][:][provider ID][:][service ID][:][ECM PID][:][CHID][:][ECM length 1][,ECM length 2]...=
+#     [CAID][:][provider ID][:][service ID][:][ECM PID][:][CHID][:][ECM length 1][,ECM length 2]...
+#
+#skyita=skyita
+m:09CD:::::B7=09CD:::::B7
+#skyita=skyger
+m:09CD:::::B7=09C4:::::46,58,90,95 
+#skyita=polsat
+m:09CD:::::B7=1803:::::92
