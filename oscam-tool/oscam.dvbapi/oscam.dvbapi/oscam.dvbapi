@@ -1,0 +1,246 @@
+#                                        ô ô
+#                                      <<<->>>
+###########################################################################################
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>©§® Edit By Gianni8127 ®§©<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                  
+###########################################################################################
+#P: 0100:000030       # CAID 0100 con il Provider 000030 ha la precedenza
+#P: 0100 1            # CAID 0100 cercherà così a lungo per aprire una scheda senza attivazione
+#P: :::1234           # ECM con Provider ID 1234 ha la priorità su ogni servizio
+#P: 0200              # CAID 0200 ha la precedenza
+#P: 0300:9ABC         # CAID 0300 ha solo priorità sul servizio 9ABC
+#M: 0400 0500:041700  # Mappata CAID 0400 e 0500 costantemente sul provider ID 041700
+#D: 0600 200          # Attendere 200 ms prima CW per CAID 0600 è scritto
+#I: :654321           # Ignorare Provider ID 654321 per ogni servizio
+#I: 0                 # Ignorare tutti CAID, che non ha precedentemente lavorato
+
+
+######################################
+#***oscam.dvbapi Update 18-02-2012***
+######################################
+#ONLY 13°EST/19°EST#
+#####################################
+P: 09CD:000000:3311 # Eurosprt HD	
+P: 09CD:000000:3B63 # Eurosport2 HD
+####################### XXX #####################################
+P: 0500:043800 #SCT/Redlight HD (13E)
+P: 0628:000000 #RedlightHD/FreeX/SCT (13E/5W)
+P: 0500:041700 #Redlight New Elite (13E/5W/12W)
+P: 0500:042700 #SCT (13E/5W/12W)
+P: 0500:032500 #Private Spice (13E)
+############## CONTOTV ##########################################
+P: 0B01:000000:20ED #Conto TV 1 (13E)
+P: 0B01:000000:20EC #Conto TV 2 (13E)
+P: 0B01:000000:20EB #Conto TV 3 (13E)
+P: 0B01:000000:20EF #Conto TV 4 (13E)
+I: 09cd:000000:20ED #Conto TV 1 (13E)
+I: 09cd:000000:20EC #Conto TV 2 (13E)
+I: 09cd:000000:20EB #Conto TV 3 (13E)
+I: 09cd:000000:20EF #Conto TV 4 (13E)
+I: 093b:000000:20ED #Conto TV 1 (13E)
+I: 093b:000000:20EC #Conto TV 2 (13E)
+I: 093b:000000:20EB #Conto TV 3 (13E)
+I: 093b:000000:20EF #Conto TV 4 (13E)
+I: 0919:000000:20ED #Conto TV 1 (13E)
+I: 0919:000000:20EC #Conto TV 2 (13E)
+I: 0919:000000:20EB #Conto TV 3 (13E)
+I: 0919:000000:20EF #Conto TV 4 (13E)
+####################### SKYITA ##################################+
+P: 09cd:000000 #SKY Italia (13E)
+P: 0919:000000 #SKY Italia (13E)
+P: 093b:000000 #Sky Italia (13E
+################# Mediaset/Glamour+(13E/5W)(24W/DVBT)############
+P: 1805:008C11 #Mediaset Premium
+P: 1805:008D11 #Mediaset Premium
+P: 1805:000000 #Mediaset Premium
+P: 1804:008C11 #Mediaset Premium
+P: 1804:008D11 #Mediaset Premium
+P: 1804:000000 #Mediaset Premium
+P: 1802:008C11 #Mediaset Premium
+P: 1802:008D11 #Mediaset Premium
+P: 1802:000000 #Mediaset Premium
+P: 1807:007911 #Glamour+ 
+P: 1807:007A11 #Glamour+
+################# TivuSat/RaiSat#################################
+P: 183D:000000 #TivuSat (13E)[ROM250]
+P: 183D:005411 #TivuSat
+############################# ASTRA 19 ##########################
+P: 0100:003311 #CanalSat France (19E)
+P: 0100:003315 #Canal+ France (19E)
+P: 0100:003317 #CanalPro France (19E)
+P: 0100:00331B #CSAT
+P: 0100:00331D #CSAT
+P: 0100:003341 #CSAT
+P: 0100:00A825 #Canal+ France (19E)
+P: 0100:00A829 #CanalSAT
+P: 0500:022610 #CANALSAT TPS (19E)
+P: 0500:032830 #CSAT (19E)
+P: 0500:032840 #CSAT (19E)
+P: 0500:043330 #CSAT (19E)
+P: 1811:001104 #CSAT (19E)
+P: 1811:001504 #CSAT
+P: 1811:002504 #CSAT
+P: 0500:030B00 #TNTSat (19E)
+##################### Srg/JSC/Eurospor ##########################
+P: 0500:023800 #SRG Swiss (13E)
+P: 0500:040810 #SRG Swiss (13E)
+P: 0500:042400 #JSC Sports (13E/7W)
+P: 0603:000000 #JSC Sports (13E/7W)
+P: 0500:022A00 #Eurosport (13E/7E)
+P: 0500:030100 #Eurosport HD (13E/7E/75E)
+P: 0500:041F00 #Eurosport HD (13E/7E/5W/75E)
+######################### Hotbird 13E ###########################
+P: 0500:042800 #BIS TV (13E/5W/19E/12W)	
+P: 0500:032920 #Orange SAT (19E/13E/5W/12W)
+P: 0500:032A00 #Orange Polska (13E)
+P: 0500:032A10 #Orange Polska CANAL+	
+P: 0100:000068 #Cyfra+ (13E)
+P: 0100:000065 #Cyfra+ VOD
+P: 1803:000000 #POLSAT HD (13E)/Mediaset Premium (5W)
+P: 1803:007001 #Polsat HD
+P: 1803:007101 #Polsat HD
+P: 0B01:000000 #N-Tnk/TVN (13E/1W)
+P: 1813:000000 #Bis TV/Cyfra+ (13E)
+P: 0604:000000 #Nova+SCT/TVB+Sex/ABS/Showtime+ART+JSC/CTI/Bulsatcom (13E/9E/5W/7W/15W/39E)
+P: 0D00:000000 #MTV/Arqiva/DigiTurk (13E/19E/5E/7/42)
+P: 0500:031000 #SLO-TV2
+P: 0500:030A00 #HRT/MTV Adria (13E/4W)
+P: 0500:020A00 #HRT Croatia (13E)
+P: 0500:020A40 #HRT CMC (13E)
+P: 0B00:000000 #Conax RTVi (5W/4W/1W/5E/9E/13E/16E/19E/33E/68E)
+P: 0500:024B00 #RTVi (13E)
+P: 0500:042300 #RTVI (13E)
+P: 0500:040500 #RTG TV (13)
+P: 0D01:000000 #JSTV (13E)
+P: 0D01:0000E0 #JSTV (13E)
+P: 0100:00006D #TeleSAT Wallonne (13E/19E/23E)
+P: 0608:000000 #Stream/ZeeTV (75E/13E/9E/100E)
+P: 1801:00C001 #Globecast (97W)/TV Globo (13E)
+P: 1801:00C002 #TV Globo (13E)
+
+###################### MTV NETWORK ############################## 
+P: 0B00:000000 #MTV (13E/19E/9E/4W
+P: 0D00:000000 #MTV (13E/19E/9E/4W
+
+############################# ASTRA 19 ##########################
+P: 0100:003311 #CanalSat France (19E)
+P: 0100:003315 #Canal+ France (19E)
+P: 0100:003317 #CanalPro France (19E)
+P: 0100:00331B #CSAT
+P: 0100:00331D #CSAT
+P: 0100:003341 #CSAT
+P: 0100:00A825 #Canal+ France (19E)
+P: 0100:00A829 #CanalSAT
+P: 0500:022610 #CANALSAT TPS (19E)
+P: 0500:032830 #CSAT (19E)
+P: 0500:032840 #CSAT (19E)
+P: 0500:043330 #CSAT (19E)
+P: 1811:001104 #CSAT (19E)
+P: 1811:001504 #CSAT
+P: 1811:002504 #CSAT
+P: 0500:030B00 #TNTSat (19E)
+############################ Digital+ ###########################
+P: 0100:004106 #Digital+ (19E)
+P: 0100:004108 #Digital+
+P: 0100:005001 #Digital+
+P: 1810:000000 #Digital+ (30W/19E)
+P: 1810:004001 #Digital+ HD (30W/19E)[ROM180]
+P: 1810:004101 #Digital+ HD
+######################### SkyDeutschland ########################
+P: 1702:000000 #SKY Germany/SKY Germany Extra (19E)
+P: 09C4:000000 #SKY Deutschland (19E)
+############################ Canal+ NL ##########################
+P: 0622:000000 #Canal+ NL (19E/23E)
+P: 0100:00006A #Canal+ Nederland (19E/23E)
+P: 0100:00006B #Canal+ Nederland HD (19E/23E)
+P: 0100:00006C #TV Vlaanderen (19E/23E)
+P: 0100:005E11 #Canal+ NL (19E/23E)
+P: 0100:005E12 #Canal+ NL
+P: 0100:005E14 #Canal+ NL
+P: 0100:005E16 #Canal+ NL
+######################## ORF TV AUSTRIA #########################
+P: 0D05:000000 #ORF/AustriaSat (19E)
+P: 0D05:000004 #ORF (19E)
+P: 0D05:000008 #Alpenglühen TVX (19E)
+P: 0D05:00000C #ORF
+P: 0D05:000010 #AustriaSat (19E)
+P: 0D95:000000 #ORF (19E)
+P: 0D95:000004 #ORF (19E)
+P: 0D95:000008 #ORF
+P: 0D95:00000C #ORF
+P: 0D95:000010 #ORF
+P: 0648:000000 #ORF (19E)
+############################ HD+ ################################
+P: 1830:000000 #HD+ (19E) [ROM142]
+P: 1830:003411 #HD+
+P: 1830:003511 #HD+
+P: 1830:008011 #HD+
+
+##################### TV PL #####################################
+P: 09B2:000000 #TVP (19E)
+P: 09D0:000000 #TVP Info (19E)
+############################### ALTRI 13&19 #####################
+P: 0B02:000000 #UPC (1W)/Vectra (13E)/FreeX (5W)/DaVinci (4W)
+P: 0BAA:000000 #Hello HD+/Tring TV (9E/13E/16E)
+P: 0100:000084 #Numericable-MTV (19E)
+P: 0100:000085 #FTC-MTV (19E)
+P: 0100:000086 #Equidia (13E)
+P: 0100:00003D #Bis TV (13E/19E/12W)
+P: 0100:00003E #Bis TV
+P: 0500:040F40 #Canal+ France (19E)
+P: 0100:00A821 #Numericable (19E/13E)
+P: 0500:007400 #MEZZO/MCM Belgique (13E/5W) [EMU]
+P: 0500:018800 #Deepam TV (13E)
+P: 0500:020810 #Game One (13E)
+P: 0500:020900 #Globecast (13E/7E)
+P: 0500:020910 #GlobeCast/TBD (13E/9E/7E/40W)
+P: 0500:021110 #ART/Ant1 (13E/39E)
+P: 0500:021200 #Asianet/AsiaFM (9E/13E/88E)
+P: 0500:021210 #RRSat/TBL
+P: 0500:021700 #Private Spice (13E)
+P: 0500:022500 #DORCEL (19E)
+P: 0500:022C00 #RTVi (13E)
+P: 0500:022E00 #Neovisne TV Hayat (13E/4W)
+P: 0500:022F00 #MAX TV (5E/13E/16E/12W)
+P: 0500:023600 #MCM TOP (19E)
+P: 0500:023A00 #GlobeCast (13E/16E/9E/7E))
+P: 0500:024300 #Globecast (13E/9E)
+P: 0500:024310 #Globecast
+P: 0500:024F00 #Max TV (5E/16E/13E/12W)
+P: 0500:025200 #GlobeCast BT
+P: 0500:021B00 #Deepam TV (13E
+P: 0500:025210 #Deepam (13E)
+P: 0500:031100 #GlobeCast France (19E)
+P: 0500:031C00 #BBC Polska (13E)
+P: 0500:032300 #Motors TV (13E)
+P: 0500:041820 #TV Festival (19E)
+P: 0500:042500 #Canal+ Wallonne (19E/23E/13E)
+P: 0500:042700 #SCT (13E)
+P: 0500:042A00 #CSAT (19E)
+P: 0500:043300 #TNT (19E)
+P: 0614:000000 #Globecast (13E/9E)
+P: 0624:000000 #Skylink/WDS (23E/19E/10E)
+P: 0630:000000 #FrenchLover/FreeX/SUN (13E/5W/93E)
+P: 0931:000000 #VisionTV (5E/13E)
+P: 0D02:000000 #RTL/UPC Direct (13E/19E-1W)
+P: 0D02:000058 #RTL (13E)
+P: 0D02:0000A0 #UPC Direct (1W/19E)
+P: 0D03:000000 #Skylink CZ/Turner/Disney (23E/19E/9E)
+P: 0D03:000008 #Skylink CZ Premium (23E/19E)
+P: 0D03:00005C #Turner (19E/13E/39E)
+P: 0D06:000000 #ITV Partner (16E/13E/9E)
+P: 0D06:0000C0 #ITV Partner (16E/13E/9E)
+P: 0D22:000000 #ESPN/Travel (19E)
+P: 0D22:000004 #ESPN/Travel (19E)
+P: 1811:004104 #Mezzo (19E)
+P: 1811:004106 #Mezzo (19E)
+P: 1815:00B801 #UPC/DIGITAL NL (1W/19E/DVBC)[ROM142]
+P: 1815:00B901 #UPC/DIGITAL NL
+P: 1833:000401 #SKY Deutschland (19E)[ROM181]
+P: 1834:000000 #Kabel Deutschland (23E/19E)[ROM184]
+P: 1834:000401 #Kabel Deutschland
+P: 1836:000000 #Blue Movie (19E)
+P: 1837:000000 #Kabel Dienst Leistungs (23E/19E)
+P: 1843:000000 #HD+ (19E)
+P: 1801:001002 #1002 UnityDigital/ISH/IESY/KabelBW (DVBC)
+P: 1801:001101 #Kabel Deutschland
+P: 1801:001102 #UnityDigital/ISH/IESY/KabelBW

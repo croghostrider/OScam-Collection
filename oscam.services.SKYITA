@@ -1,0 +1,93 @@
+[Sky TV]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 37A6,2DC6,2B70,379D,1FBA,0FBD,0FD5,0DB8,1FC5,0FC2,0FD6,379E,1FCB,0FC1,0FD7,1FC8,3779,05A3,2FE0,2DB6,2C91,3902,2B66,2C36,2FF0,2CD0,3C03,2CF3,2BCD,2FE7,059F,1111,1113,2CC2,3BF4,2C37,0E20,231C,420E,420F,44D5,110A,10E8,10EC,10EA,10E9,10E7,10E1,3A0B,0599,2BCB,1FA7,38D0,1FAC,1123
+    
+[radio]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 3BEB,3BFF,3BFE,3BE9,3BEA,3BE8,3BEC,3C1A,3C15,3C0A,3C0E,3C06,3C10,3C0F,3C0D,3C0C,3C14,3C00,3C18,3C19,3C11,3C12,3C13,3C16,3C17,38D6,38D2,38D8,38D3,38DA,38D5,38D1,38D9,38DC,38DB,38D7,38D4,3BE6,3BED,38CC
+
+	
+#Sky Famiglia
+[HD]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 0001,379C,0DBB,0DBA,1015,1C32,0DB9
+
+[documentari]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 0E39,0FDA,1FBE,2B71,2FD1,2B13,05BB,,05B9,2FD2,2C90,1FCF,0FD9,0DB7,1FCC,0E2E,0FDC,0E31,3C01,0E2F,1FAF
+
+[musica]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2C83,0594,0595,2C85,2C7E,0593,2C28,0E2A,38F3,3C1C,3BCD,3BE5,2C33,059D
+
+[bambini]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1020,2B6E,2C8B,2B6A,3BCB,2CBD,2C8D,2CBE,2B7C,3BC5,3BCC,2FE8,3C07,2FE9,2C31,2CC4,2FD0,2C9D,2C38,2FF1,0590,2FDE,3450,0FDE,2C2E,3452,2FD3,2FD5,
+
+
+[cinema_hd]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 106A,2B5D,2Cff,2DCA,2CF5,2B63,1010,2DCC,1C57,2B61,1C3F,2B73,2B16,2DCD,1011,2B6B,2CF4,2DC3,2B18,2B65,1FC9,1FA8,0F66,2DB8
+
+[sport_hd]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2B0F,2AA8,2B10,2AA9,1C28,2DD9,1E48,2D58,2B1B,2AB1,2C27,2C2A,3311,2D59,3B63,2BC7,0592,2CF1,2CD1,2CF2,10E3,1C29,2AAA,2AAB,2AAC,2AB7,3454,
+
+[servizio]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2B1D,2AB8,2ABA,1C3E,2AAF,2B12,2AB0,1123,10FC,112A,1037
+
+[sky_3d]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 0F41,0F42,0F43,0F44,0F45
+
+[calcio_hd]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1C29,2AAA,24C3,24C4,1089,108A,0F46,0F48,1E5F,1E5C,2DC7,2BCF,2BD1,2BD3,2BD5,2BD7,2BD9,2D56,2D5D,2D5F,2D61,2D62,2D63,2DCF,2AAB,2AAC,2AB7,3454
+
+[primafila]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2D65,38BF,2BD0,38E0,2BCE,38E1,2BCC,340D,2BCA,3400,2BC5,3402,2BC3,3405,2D57,2D53,2D51,2D54,2D55,2D82,2DAA,38BD,38FA,38BC,38C8,3421,342A,3427,3435,3422,3431,3423,3432,341E,3433,38BE,38C9
+
+[primafi_hd]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1E5B,1E60,24BF,0F4C,108B,108F,24BE,37AA,37D2
+
+[calcio_15]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2DC8
+
+[opzionali]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2C3A,2CC0,2CBF,1FAA,1C89,3BF0,0E12,2CC8
+
+[doctor's]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1101
+
+[test-promo]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2C24,2C45,2C46,2C4F,2C55,2C4B,2C47,2C49,2C4A,2C48,2C43,2C3D,2C6C,2C3E,2C30,2C6D,2C34,2C68,2C5D,2C52,2C35,2C5E,2C6E,2C6B,2C2D,2C84,2C32,2C25,2C42,2C44,2C3F,2C40,2C41,2C2B,2C72,2C73,2C26,2C6F,2C70,2C71,2C74,2C6A,2C75
+
+[conto-sct]
+caid                          = 0919,093B,09CD
+provid                        = 000000
+srvid                         = 20ED,20EC,20EB,20EF,000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7
+

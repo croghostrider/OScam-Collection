@@ -1,0 +1,16 @@
+
+		
+		<TABLE border=0 class="menu">
+		<TR>
+			<TD CLASS="##MENUACTIVE0##"><input type="button" name="Status" class="menubutton" value="STATUS" onClick="window.location.href='status.html'"></TD>
+			<TD CLASS="##MENUACTIVE1##"><input type="button" name="Configuration" class="menubutton" value="CONFIGURATION" onClick="window.location.href='config.html'"></TD>
+			<TD CLASS="##MENUACTIVE2##"><input type="button" name="Readers" class="menubutton" value="READERS" onClick="window.location.href='readers.html'"></TD>
+			<TD CLASS="##MENUACTIVE3##"><input type="button" name="Users" class="menubutton" value="USERS" onClick="window.location.href='userconfig.html'"></TD>
+			<TD CLASS="##MENUACTIVE4##"><input type="button" name="Services" class="menubutton" value="SERVICES" onClick="window.location.href='services.html'"></TD>
+			<TD CLASS="##MENUACTIVE5##"><input type="button" name="Files" class="menubutton" value="FILES" onClick="window.location.href='files.html'"></TD>
+			<TD CLASS="##MENUACTIVE6##"><input type="button" name="Failban" class="menubutton" value="FAILBAN"  onClick="window.location.href='failban.html'">##FAILBANNOTIFIER##</TD>
+            <TD CLASS="##MENUACTIVE7##"><input type="button" name="Cacheex" class="menubutton" value="CACHE-EX" onClick="window.location.href='cacheex.html'"></TD>	
+	        <TD CLASS="##MENUACTIVE8##"><input type="button" name="Script" class="menubutton" value="SCRIPT" onClick="window.location.href='script.html'"></TD>
+			<TD CLASS="##MENUACTIVE9##"><input type="button" name="Shutdown" class="shutbutton" value="RESTART / SHUTDOWN" onClick="window.location.href='shutdown.html'"></TD>
+		</TR>
+	</TABLE>

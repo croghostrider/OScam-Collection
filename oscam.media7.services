@@ -1,0 +1,8 @@
+# oscam.services generated automatically by Streamboard OSCAM 1.20-unstable_svn build #6330
+# Read more: http://streamboard.gmc.to/svn/oscam/trunk/Distribution/doc/txt/oscam.services.txt
+# Edit by Gianni8127
+
+[mediaset]
+caid                          = 1805,1804,1802
+provid                        = 008C11,008D11,000000
+srvid                         = 0001,0002,0003,0004,0005,0006,0007,04E3,04E4,0FA4,0FA5,0FA6,14B9,14DC,0083,0084,0096,0076,0092,009A,0080,006F,0070,0097,0086,0077,0078,0FAD,0017,0FAB,14BF,0065,006C,14DB,0066,0067,0068,0069,006A,006B,00B3,0015,0085,006D,00A0,009E,009D,0091,0093,0FAE,0099,008F,008D,008E,0075,14B5,14DD,00BD,0081

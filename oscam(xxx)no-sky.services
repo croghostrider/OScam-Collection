@@ -1,0 +1,46 @@
+# oscam.services generated automatically by Streamboard OSCAM 1.20-unstable_svn build #6330
+# Read more: http://streamboard.gmc.to/svn/oscam/trunk/Distribution/doc/txt/oscam.services.txt
+# Edit by Gianni8127
+
+ [privatespice]
+ caid                          = 0604,0500
+ provid                        = 000000,032920,021700,032500
+ srvid                         = 1251
+
+
+ [sct42700]
+ caid                          = 0500
+ provid                        = 042700
+ srvid                         = 000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7
+
+
+ [redlightsct-v]
+ caid                          = 0500
+ provid                        = 043800
+ srvid                         = 4225,4224,4223,227B,43B3,000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7
+
+ [redlightsct-I]
+ caid                          = 0628
+ provid                        = 000000
+ srvid                         = 4225,4224,4223,227B,43B3,000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7
+
+
+ [freextv]
+ caid                          = 0500
+ provid                        = 041700
+ srvid                         = 227B,0014,128F,0013
+
+
+
+ [contotv]
+ caid                          = 0B01
+ provid                        = 000000
+ srvid                         = 20ED,20EC,20EB,20EF
+
+####################################################################################################################################
+##
+## [ALL_XXX]
+## caid                          = 0604,0500,0B01
+## provid                        = 000000,032920,043800,041700,042700
+## srvid                         = 1251,000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7,4225,4224,4223,227B,43B3,000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7,4225,4224,4223,227B,43B3,000A,35C8,35C0,35C1,35C2,35C9,35C4,35CA,35C3,35C6,35C7,227B,0014,128F,0013,20ED,20EC,20EB,20EF
+####################################################################################################################################
